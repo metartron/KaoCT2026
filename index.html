@@ -250,7 +250,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px}
     <div class="eyebrow">2026 授證場　歲末祝福</div>
     <h1>歲末祝福服務手冊</h1>
     <div class="meta">11/20（五）至 11/26（四）　穿堂・國議廳</div>
-    <div class="alert"><b>12:00</b><span>當天報到，請準時，請準時，請準時</span></div>
+    <div class="alert"><b>12:00</b><span>穿堂集合報到，請準時，請準時，請準時</span></div>
   </section>
 
   <nav class="tabs" aria-label="分頁">
@@ -285,8 +285,8 @@ footer{margin-top:28px;color:var(--muted);font-size:13px}
       <h2>當天須知</h2>
       <div class="stack">
         <div class="card">
-          <div class="big"><b>12:00</b><span>報到　請準時，請準時，請準時</span></div>
-          <p style="margin-top:10px">報到後先跑流程、動線，練默契。</p>
+          <div class="big"><b>12:00</b><span>穿堂集合報到　請準時，請準時，請準時</span></div>
+          <p style="margin-top:10px">在穿堂集合報到後，先跑流程、動線，練默契。</p>
         </div>
         <div class="card">
           <h3>服裝</h3>
@@ -299,7 +299,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px}
           <h3>當天時程</h3>
           <ul class="tl">
             <li><time>11:00–12:00</time><div>共修人員午餐（和敬廳）<span class="small muted">　11/23 表上未列</span></div></li>
-            <li><time>12:00–13:50</time><div>經藏演練（報到）<span class="small muted">　11/21 表上未列</span></div></li>
+            <li><time>12:00–13:50</time><div>經藏演練（穿堂集合報到）<span class="small muted">　11/21 表上未列</span></div></li>
             <li><time>14:10</time><div>戴手佛珠</div></li>
             <li><time>14:30–17:00</time><div>歲末祝福</div></li>
           </ul>
@@ -429,7 +429,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px}
 <script>
 (function(){
   var DAYS=[
-    {id:'1120',md:'11/20',w:'五',iso:'2026-11-20',no:'第一場',place:'岡察左苓港',tag:'11/15場',est:'2200',lunch:true,drill:true,
+    {id:'1120',md:'11/20',w:'五',iso:'2026-11-20',no:'第一場',place:'岡寮左苓港',tag:'11/15場',est:'2200',lunch:true,drill:true,
      chuan:['燕玉'],guoyi:['美娟','文卿'],open:false,
      reh:[['第一次','11/17（二）','08:30–11:30'],['第二次','11/19（四）','19:30–21:30'],['第三次','11/20（五）','08:00–11:00']]},
     {id:'1121',md:'11/21',w:'六',iso:'2026-11-21',no:'第二場',place:'台南場',tag:'',est:'',lunch:true,drill:false,
@@ -440,7 +440,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px}
      reh:[['第一次','11/16（一）','13:00–16:00'],['第二次','11/21（六）','19:30–21:30'],['第三次','11/22（日）','08:00–11:00']]},
     {id:'1123',md:'11/23',w:'一',iso:'2026-11-23',no:'第四場',place:'屏東場',tag:'',est:'1500',lunch:false,drill:true,
      chuan:['燕玉','佳靜'],guoyi:['怡芬'],open:false,reh:[]},
-    {id:'1124',md:'11/24',w:'二',iso:'2026-11-24',no:'第五場',place:'岡察左苓港',tag:'11/13場',est:'2200',lunch:true,drill:true,
+    {id:'1124',md:'11/24',w:'二',iso:'2026-11-24',no:'第五場',place:'岡寮左苓港',tag:'11/13場',est:'2200',lunch:true,drill:true,
      chuan:['燕玉','佳靜','金美'],guoyi:['文卿','瑞陽','怡芬'],open:false,
      reh:[['第一次','11/17（二）','13:00–16:00'],['第二次','11/23（一）','19:30–21:30'],['第三次','11/24（二）','08:00–11:00']]},
     {id:'1125',md:'11/25',w:'三',iso:'2026-11-25',no:'第六場',place:'嘉南場',tag:'',est:'',lunch:true,drill:true,
@@ -516,7 +516,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px}
         +'<div><div class="line"><span class="tag '+r.k+'">'+r.label+'</span>'
         +(r.k==='guoyi'?'<span class="pill '+(d.open?'ok':'wait')+'">'+(d.open?'確定開放':'待確認')+'</span>':'')+st+'</div>'
         +'<div class="where">'+d.no+'　'+esc(d.place)+(d.tag?'<span class="muted small">　'+d.tag+'</span>':'')+'</div>'
-        +'<div class="small muted">12:00 報到（請準時）　14:30–17:00 歲末祝福</div>'
+        +'<div class="small muted">12:00 穿堂集合（請準時）　14:30–17:00 歲末祝福</div>'
         +'<div class="small" style="margin-top:6px">同班：'+(mates.length?mates.map(esc).join('、'):'只有你一位')+'</div>'
         +(r.k==='guoyi'&&!d.open?'<div class="note">國議廳這天還不確定會不會開，請等窗口通知。</div>':'')
         +'</div></article>';
